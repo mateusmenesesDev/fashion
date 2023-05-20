@@ -42,13 +42,13 @@ function CookieConsent() {
             </button>
           </div>
 
-          <div className='flex w-full flex-col lg:flex-row justify-between'>
-            <div className='flex flex-col'>
+          <div className="flex w-full flex-col lg:flex-row justify-between">
+            <div className="flex flex-col">
               <span className="text-sm">
                 We use third-party cookies order to personalize your experience.
               </span>
 
-              <a href="https://www.deco.cx" className='text-[#6D8B61] mt-4'>
+              <a href="https://www.deco.cx" className="text-[#6D8B61] mt-4">
                 <span class="underline text-base]">
                   Read our cookie policy
                 </span>
@@ -56,9 +56,13 @@ function CookieConsent() {
             </div>
 
             <div class="lg:w-20 mt-4">
-              <button data-button-cc-accept className='h-10 w-full bg-[#273746] text-white'>Allow</button>
+              <button
+                data-button-cc-accept
+                className="h-10 w-full bg-[#273746] text-white"
+              >
+                Allow
+              </button>
             </div>
-
           </div>
         </div>
       </div>
